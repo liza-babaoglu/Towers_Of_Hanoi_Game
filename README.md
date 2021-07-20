@@ -1,11 +1,18 @@
 # Towers_Of_Hanoi_Game
 Computer organization project: Built the digital version of the Towers of Hanoi game on a ARMv7 DE1-SoC simulator, CPUlator.
 
+2021 - Course Team Project
+Teammate: Nicholas Heeralal
+
+Tools used for game development: CPUlator
+
+
 ***1.0 Description***
 
 There are three towers, represented in white. There are three to five disks, represented in colorful different sized rectangles, depending on the level of the game. The pink arrow points at the tower and selects the upper disk on the tower based on the user input  (Section 3). The user can play the game using the keyboard and pressing on certain switches (Section 3).
 
 ![Screen Shot 2021-07-20 at 12 15 34 PM](https://user-images.githubusercontent.com/67078190/126359180-aec3b95b-4ddb-4b62-b513-d2190704f4c4.png)
+
 
 
 
@@ -54,7 +61,7 @@ When the up arrow (or W) is pressed, the disk gets selected and raised above the
 **3.3 End of Game**
 After completing the task, regardless of the number of moves it takes, the “You Win!” page is shown. To try playing again to perform a better result, play with a different level, or see the fastest method to win through the auto-solver, press key R to reset. Then, choose your level (Section 3.1) or the auto-solver (Section 4.3).
 
-***4.0 Features**
+***4.0 Features***
 
 The following features assist the player in playing the game.
 
@@ -84,7 +91,7 @@ Throughout the animation, the HEX4 and HEX5 display the minimum number of moves 
 
 NOTE: The R key to get back to the introduction page is disabled when the auto-solver is being displayed. Furthermore, you will return to the introduction page after seeing the hint.
 
-***5.0 Source Code Information**
+***5.0 Source Code Information***
 
 The primary data structure utilized was a linked list. Each tower is represented by a list. If a tower’s head node is NULL, it is empty. At the beginning of the gameplay, the first tower is initialized with the number of disks chosen with the largest disk number at the beginning of the list. To move a disk to another tower, the next tower must either be null (empty) or at the end of that tower’s list (the topmost disk), that disk must be larger than the one you want to play. To aid with these moves; there is a data structure that represents the Arrow to store information of the tower is currently over and if it is holding a disk or not. A win is detected if the third tower has the number of nodes (disks) placed onto it. 
 
