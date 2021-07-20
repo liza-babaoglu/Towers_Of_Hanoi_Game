@@ -41,7 +41,7 @@ Level 1: 3 disks,	Level 2: 4 disks,	Level 3: 5 disks
 - Press SW-2 to select Level 3. When the respective LED is turned on, un-press SW-2.
 
 ![Screen Shot 2021-07-20 at 12 16 29 PM](https://user-images.githubusercontent.com/67078190/126359320-420bd0c0-ee97-4f99-822d-b40218130433.png)
-                                   ![Uploading Screen Shot 2021-07-20 at 12.17.02 PM.png…]()
+                         
 Figures show Level 1 is selected.
 
 NOTE: Please ensure you unpressed the switch after selecting your desired mode of play.
