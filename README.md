@@ -60,6 +60,7 @@ When the up arrow (or W) is pressed, the disk gets selected and raised above the
 4. At any point in gameplay, if you want to restart the game to select an easier/harder game mode, or simply just want to do something else, pressing the R key would take you back to the introduction page to pick a level (Section 3.1) or see the auto-solver (Section 4.3).
 
 **3.3 End of Game**
+
 After completing the task, regardless of the number of moves it takes, the “You Win!” page is shown. To try playing again to perform a better result, play with a different level, or see the fastest method to win through the auto-solver, press key R to reset. Then, choose your level (Section 3.1) or the auto-solver (Section 4.3).
 
 ***4.0 Features***
@@ -67,6 +68,7 @@ After completing the task, regardless of the number of moves it takes, the “Yo
 The following features assist the player in playing the game.
 
 **4.1 Display of the Number of Moves**
+
 HEX4 and HEX5 display the minimum number of moves it takes to complete the game, where a higher level has a greater number of moves to complete the game.
 
 HEX1 and HEX0 display the number of moves played by the player throughout the game, where the number displayed gets incremented by one after each valid move.
@@ -75,6 +77,7 @@ HEX1 and HEX0 display the number of moves played by the player throughout the ga
 
 
 **4.2 Warning of Invalid Moves**
+
 A warning of “Invalid Move” is displayed, if a player tries to place a larger disk on top of a smaller disk, or lift another disk while the arrow is holding one. 
 
 NOTE: This does not count as a move.
@@ -83,6 +86,7 @@ NOTE: This does not count as a move.
 
 
 **4.3 Auto-Solver**
+
 The auto-solver visually and descriptively shows the steps to be taken to complete the level with the minimum number of steps. The visual is shown through the animation and the description of moves is shown in the Messages (terminal).
 - Press SW-7 to select the Auto-Solver for Level 1. When the respective LED is turned on, un-press SW-7.
 - Press SW-8 to select the Auto-Solver for Level 2. When the respective LED is turned on, un-press SW-8.
@@ -97,7 +101,6 @@ NOTE: The R key to get back to the introduction page is disabled when the auto-s
 The primary data structure utilized was a linked list. Each tower is represented by a list. If a tower’s head node is NULL, it is empty. At the beginning of the gameplay, the first tower is initialized with the number of disks chosen with the largest disk number at the beginning of the list. To move a disk to another tower, the next tower must either be null (empty) or at the end of that tower’s list (the topmost disk), that disk must be larger than the one you want to play. To aid with these moves; there is a data structure that represents the Arrow to store information of the tower is currently over and if it is holding a disk or not. A win is detected if the third tower has the number of nodes (disks) placed onto it. 
 
 A summary of the I/O devices used is as follows:
-
 - Switches - to select the mode of the program.
 - LEDs - to display the switch-mode selected.
 - HEX Displays - to display the minimum possible score and user’s current score.
