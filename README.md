@@ -30,6 +30,7 @@ GOAL: Move all the disks over to Tower C (right-most).
 ***3.0 How To Play***
 
 In the beginning, the introduction page is seen. To play, follow the next steps.
+
 **3.1 Pick a Level**
 
 There are three levels in this game, where the increase in the number of disks in the game increased the difficulty.
@@ -97,11 +98,11 @@ The primary data structure utilized was a linked list. Each tower is represented
 
 A summary of the I/O devices used is as follows:
 
-Switches - to select the mode of the program.
-LEDs - to display the switch-mode selected.
-HEX Displays - to display the minimum possible score and user’s current score.
-PS/2 Keyboard - to input user moves.
-VGA pixel buffer - to display the gameplay.
-Character Buffer - to display the warning messages.
-ARM A9 Private Timer - used to achieve delay effects in the auto-solver.
+- Switches - to select the mode of the program.
+- LEDs - to display the switch-mode selected.
+- HEX Displays - to display the minimum possible score and user’s current score.
+- PS/2 Keyboard - to input user moves.
+- VGA pixel buffer - to display the gameplay.
+- Character Buffer - to display the warning messages.
+- ARM A9 Private Timer - used to achieve delay effects in the auto-solver.
 
