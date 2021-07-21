@@ -5,7 +5,7 @@ Computer organization project: Built the digital version of the Towers of Hanoi 
 
 Teammate: Nicholas Heeralal
 
-Tools used for game development: C Programming Language, CPUlator
+Tools used for game development: C Programming Language, ARM Processor, CPUlator
 
 
 ***1.0 Description***
