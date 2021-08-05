@@ -1,6 +1,11 @@
 # Towers_Of_Hanoi_Game
 Computer organization project: Built the digital version of the Towers of Hanoi game on a ARMv7 DE1-SoC simulator, CPUlator.
 
+Check out our [presentation](https://youtu.be/kFwgeKDJygw):
+
+[![Demo](https://img.youtube.com/vi/kFwgeKDJygw/0.jpg)](https://www.youtube.com/watch?v=kFwgeKDJygw)
+
+
 2021 - Team Course Project
 
 Teammate: Nicholas Heeralal
